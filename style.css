@@ -2,8 +2,37 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 h1{
-    font: 50px;
+    font: 100px;
 }
 .orange-color{
     color:gold;
+
+}
+section{
+    display: flex;
+    margin-top: 1%;
+
+}
+.half-width{
+    width: 40%;
+    padding-left: 10%;
+    margin-top: 3%;
+}
+.half-width img{
+    width: 40%;
+    padding-right: 10%;
+ 
+}
+.link-button{
+    text-decoration: none; 
+    padding: 8px 30px;
+    background-image: linear-gradient(rgb(122, 91, 33) rgb(116, 50, 39));
+    color: whitesmoke;
+    font-weight: 500;
+    border-radius: 5%;
+    background-color: tomato;
+}
+.top-banner{
+    background-image: url(image/top-banner-white.png);
+    background-repeat: no-repeat;
 }

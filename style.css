@@ -2,7 +2,7 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 h1{
-    font: 100px;
+    font: 400px;
 }
 .orange-color{
     color:gold;
@@ -11,6 +11,7 @@ h1{
 section{
     display: flex;
     margin-top: 1%;
+    margin-bottom: 6%;
 
 }
 .half-width{
@@ -25,7 +26,7 @@ section{
 }
 .link-button{
     text-decoration: none; 
-    padding: 8px 30px;
+    padding: 8px 25px;
     background-image: linear-gradient(rgb(122, 91, 33) rgb(116, 50, 39));
     color: whitesmoke;
     font-weight: 500;
@@ -36,3 +37,21 @@ section{
     background-image: url(image/top-banner-white.png);
     background-repeat: no-repeat;
 }
+.half-width2 img{
+     width: 80%;
+     padding-bottom: 10%;
+     padding-left: 20%;
+}
+.half-width2{
+    width: 50%;
+    padding-right: 15%;
+    margin-bottom: 3%;
+}
+section{
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 6%; 
+}
+.top-banner2{
+    background-image: url(image/top-\ banner.png);
+    background-repeat: no-repeat;

@@ -2,17 +2,17 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 h1{
-    font: 500px;
+    font: 700px;
 }
 .orange-color{
-    color:gold;
+        color:gold;}
     section{
         display: flex;
         margin-bottom: 150%;
     }
 
 
-}
+
 .flexible-container{
     width: 10%;
     display: inline-flex;
@@ -83,30 +83,65 @@ h1{
    }
 
  .font_line1{
-    display : flex;
+    display : linear flex;
     margin-bottom: 20%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 2%;
+    margin-left: 50PX;
+    margin-right: 50px;
+    padding: 20px;
+   margin: center;
 }
    
 .font_line img{
-   
-    width: 35%;
+    width:150px;
 
-    padding:5%;
+    display: flex;
+    padding :10%;
     margin-left: 10%;
-    margin-right: 10%;
-    ali
+    margin-right: 30%;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 .font_line{
-    box-shadow: 10px 10px 40px lightslategray;
+    box-shadow: 10px 10px 40px rgb(221, 224, 226);
+    background-color: rgb(190, 184, 184)
     margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 20%;
-    border-radius: 10%;
+    margin-right: 10PX;
+    border-radius: 20px;
+    padding: 20px;
 
-}.auto{
-    text-align: center;
 }
+.auto{
+    text-align: center;
+    margin-right: 10PX;
+}
+
+.number {
+    display: linear-flex;
+    width: 100%;
+    margin-right: 40px;
+}
+.footer{
+    text-align: center;
+    display: center;
+    
+}
+.num{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 15px;
+    
+    background-color: rgb(250, 246, 246);
+    border-radius: 15px;
+    text-align: center;
+   margin-bottom: 250px; 
+   box-shadow: 10px 10px 40px rgb(221, 224, 226);
+}
+.foot{
+    text-align: center;
+    margin-bottom: 0px; 
+    background-color: rgb(80, 69, 69)
+    
+}
+
 
